@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    background-color: black;
+    height: auto;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.menu a{
+    text-decoration: none;  
+    padding: 10px;
+    color: white;
+  
+}
+.menu .active{
+    color: #f76d37;
+}
+.menu{
+    margin: 7px;
+}
