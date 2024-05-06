@@ -1,31 +1,35 @@
+                        /* header and home page styling */
 header{
     width: 100%;
     background-color: black;
-    height: auto;
+    height: 70px;
     background-size: 100%;
     display: flex;
-    justify-content: space-between;
-  
+    justify-content: space-between; 
 }
 
 .menu a{
     text-decoration: none;  
     padding: 10px;
     color: white;
-  
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu a:hover {
+    color: #f76d37;
 }
 .menu .active{
     color: #f76d37;
 }
 .menu{
-    margin: 7px;
+    margin: 20px;
 }
 
 .banner {
     width: 100%;
     float: left;
     background-image: url(/assets/pic/ban_bg.jpeg);
-    height: auto;
+    height: 550px;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
     background-repeat: no-repeat;
@@ -61,8 +65,7 @@ header{
     color: white;
     margin: 0px;
     padding-bottom: 30px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 .learnmore_bt {
@@ -86,4 +89,243 @@ header{
 .learnmore_bt a:hover {
     background-color: #f76d37;
     color: #fff;
+}
+.logo{
+    margin: 13px;
+}
+
+                                 /* footer syle */
+.footer-basic {
+    padding:40px 0;
+    background-color:black;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:8px 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  /* about start */
+.about_section {
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+.about_taital_main {
+    width: 100%;
+    float: left;
+    padding: 120px 0px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.read_bt {
+    width: 175px;
+    float: left;
+    padding-top: 40px;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #252525;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #f76d37;
+}
+
+/* about section end */
+
+/* gallery section start */
+
+.gallery_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    background-color: white;
+}
+
+.gallery_taital {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+}
+
+.gallery_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    color: #262525;
+}
+
+.gallery_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.image {
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+img.image {
+    min-height: 300px;
+}
+
+.container_main {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(254, 230, 220, 0.6);
+    margin: 0 auto;
+}
+
+.container_main:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+
+.seemore_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.seemore_bt a {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #252525;
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+
+.seemore_bt a:hover {
+    background-color: #f76d37;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #f76d37;
+    text-decoration: underline;
+}
+
+/* gallery section end */
+
+/* service page style */
+.image-container img{
+width: 400px;
+height: 300px;
+
+}
+.image-container {
+    display: flex;
+    justify-content:space-around;
+    padding: 25px;
 }
